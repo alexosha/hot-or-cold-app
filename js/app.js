@@ -115,27 +115,27 @@ function checkInput(){
         if (userGuess / secretNumber === 1){
             setFeedback("Congrats! You win!");
             finish = true;
-          } else if ((secretNumber - userGuess) > 60.5){
+          } else if ((userGuess - secretNumber) > 60.5){
             setFeedback("You're completely frozen.");
-            } else if ((secretNumber - userGuess) > 55.5){
+            } else if ((userGuess - secretNumber) > 55.5){
             setFeedback("You're freezing cold.");
-            } else if ((secretNumber - userGuess) > 50.5){
+            } else if ((userGuess - secretNumber) > 50.5){
             setFeedback("You're super cold.");
-            } else if ((secretNumber - userGuess) > 40.5) {
+            } else if ((userGuess - secretNumber) > 40.5) {
             setFeedback("You are cold.");
-            } else if ((secretNumber - userGuess) > 30.5) {
+            } else if ((userGuess - secretNumber) > 30.5) {
             setFeedback("You're a bit chilly.");
-            } else if((secretNumber - userGuess) > 20.5) {
+            } else if((userGuess - secretNumber) > 20.5) {
             setFeedback("You're getting warm.");
-            } else if((secretNumber - userGuess) > 15.5) {
+            } else if((userGuess - secretNumber) > 15.5) {
             setFeedback("You're getting warmer.");
-            } else if ((secretNumber - userGuess) > 7.5){
+            } else if ((userGuess - secretNumber) > 7.5){
             setFeedback("You're getting hot.");
-            } else if ((secretNumber - userGuess) > 5.5){
+            } else if ((userGuess - secretNumber) > 5.5){
             setFeedback("You're hotter.");
-           } else if ((secretNumber - userGuess) > 1.5){
+           } else if ((userGuess - secretNumber) > 1.5){
             setFeedback("You're very hot.");
-            } else if ((secretNumber - userGuess) > 0.5){
+            } else if ((userGuess - secretNumber) > 0.5){
             setFeedback("You're burning up!");
         } else {
         }
